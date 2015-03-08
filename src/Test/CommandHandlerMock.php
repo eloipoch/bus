@@ -8,7 +8,7 @@ use Mockery\MockInterface;
 
 final class CommandHandlerMock implements CommandHandler
 {
-    /** @var Callable|MockInterface */
+    /** @var MockInterface|CommandHandlerMock */
     private $mock;
 
     public function __construct()
