@@ -2,7 +2,7 @@
 
 namespace EloiPoch\Bus\Test;
 
-use EloiPoch\Bus\Message\Command;
+use EloiPoch\Bus\CommandBus\Command;
 
 final class CommandDummy implements Command
 {

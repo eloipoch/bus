@@ -1,6 +1,6 @@
 <?php
 
-namespace EloiPoch\Bus\Bus;
+namespace EloiPoch\Bus\CommandBus;
 
 interface CommandHandler
 {
