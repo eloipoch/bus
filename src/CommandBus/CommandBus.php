@@ -2,6 +2,9 @@
 
 namespace EloiPoch\Bus\CommandBus;
 
+use EloiPoch\Bus\CommandBus\Handler\CommandHandler;
+use EloiPoch\Bus\CommandBus\Handler\Exceptions\CommandHandlerNotRegisteredForCommand;
+
 interface CommandBus
 {
     /**

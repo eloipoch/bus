@@ -2,7 +2,7 @@
 
 namespace EloiPoch\Bus\Test;
 
-use EloiPoch\Bus\CommandBus\CommandHandler;
+use EloiPoch\Bus\CommandBus\Handler\CommandHandler;
 use LogicException;
 
 final class CommandHandlerSpyForCommandDummy implements CommandHandler
